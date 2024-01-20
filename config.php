@@ -1,7 +1,7 @@
 <?php
 try
 {
- $conn = new PDO( 'mysql:host=localhost;dbname=msg_db', 'root', '');
+ $conn = new PDO( 'mysql:host=<HOST>;dbname=msg_db', '<USER>', '<PASSWORD>');
 
 }
 catch (PDOException $e){
